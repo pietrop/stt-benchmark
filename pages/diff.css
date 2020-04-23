@@ -1,0 +1,127 @@
+.equal{
+    cursor: pointer;
+}
+
+.delete {
+    display: inline-block;
+    position: relative;
+    /* // background-color: #ffe5e5; */
+    /* // background-color: #ff0000; */
+    /* // color: white; */
+    cursor: no-drop;
+}
+
+.delete:before {
+    content: "~~~~~~~~~~~~";
+    font-size: 0.6em;
+    font-weight: 700;
+    font-family: Times New Roman, Serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: -1px;
+    overflow: hidden;
+}
+
+.insert{
+    text-decoration-line: line-through;
+    background-color: #e5e5ff;
+    cursor: pointer;
+}
+
+.insert {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.insert:before {
+    content: "~~~~~~~~~~~~";
+    font-size: 0.6em;
+    font-weight: 700;
+    font-family: Times New Roman, Serif;
+    color: blue;
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: -1px;
+    overflow: hidden;
+}
+
+.replaceStt{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.replaceStt:before {
+    content: "~~~~~~~~~~~~";
+    font-size: 0.6em;
+    font-weight: 700;
+    font-family: Times New Roman, Serif;
+    color:  red;
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: -1px;
+    overflow: hidden;
+}
+
+
+.replaceBaseText{
+    display: inline-block;
+    position: relative;
+    /* // background-color: #99cc99; */
+    cursor: no-drop;
+}
+
+.replaceBaseText:before {
+    content: "~~~~~~~~~~~~";
+    font-size: 0.6em;
+    font-weight: 700;
+    font-family: Times New Roman, Serif;
+    color:  #99cc99;
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: -1px;
+    overflow: hidden;
+}
+
+span.replaceBaseTextLine.line{
+    background-color: #e5f2e5;
+}
+
+span.replaceBaseTextLine.line:after{
+    content: "]";
+    color: #99cc99;
+}
+
+span.replaceBaseTextLine.line:before{
+    content: "[";
+    color: #99cc99;
+}
+
+span.replaceSttLine.line{
+    background-color: #ffe5e5;
+}
+
+span.replaceSttLine.line:after{
+    content: "]";
+    color: red;
+}
+span.replaceSttLine.line:before{
+    content: "[";
+    color: red;
+}
+
+.unplayedWord{
+    color:grey!important;
+}
+
+video.videoPreview {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

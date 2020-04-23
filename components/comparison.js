@@ -46,11 +46,11 @@ export default function Comparison(props) { // Declare a new state variable, whi
     }
     return (
         <div>
-            <h2 onClick={handleSetComparisonName}>{comparisonName} {props.n}</h2>
+            <h2 onClick={handleSetComparisonName}>{comparisonName}</h2>
             <Button onClick={handleRemove}>Remove</Button>
             {/* <p>You clicked {count} times</p> */}
             <Form.File>
-                <Form.File.Label>Base text file input<code>.txt</code>
+                <Form.File.Label>STT Transcription<code>.json</code>
                 </Form.File.Label>
                 <Form.File.Input onChange={handleAddComparisonData}/>
             </Form.File>

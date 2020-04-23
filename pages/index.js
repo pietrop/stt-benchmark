@@ -92,7 +92,7 @@ export default function Home() {
             <Container fluid>
                 <Row>
                     <Col>
-                        <h1>STT Benchmarking</h1>
+                        <h1>STT Benchmarking - <a href="https://github.com/pietrop/stt-benchmark" target="_blank" rel="noopener">github</a></h1>
                         {/* <p>You clicked { countList.length }  times</p> */}
                       
                         {/* <Form>

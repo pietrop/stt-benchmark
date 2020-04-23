@@ -113,14 +113,14 @@ function Comparison(props) {
       lineNumber: 53,
       columnNumber: 17
     }
-  }, "Base text file input", __jsx("code", {
+  }, "STT Transcription", __jsx("code", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53,
-      columnNumber: 54
+      columnNumber: 51
     }
-  }, ".txt")), __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].File.Input, {
+  }, ".json")), __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].File.Input, {
     onChange: handleAddComparisonData,
     __self: this,
     __source: {
@@ -8111,7 +8111,17 @@ function Home() {
       lineNumber: 95,
       columnNumber: 25
     }
-  }, "STT Benchmarking"), __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__["default"].File, {
+  }, "STT Benchmarking - ", __jsx("a", {
+    href: "https://github.com/pietrop/stt-benchmark",
+    target: "_blank",
+    rel: "noopener",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 48
+    }
+  }, "github")), __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__["default"].File, {
     __self: this,
     __source: {
       fileName: _jsxFileName,

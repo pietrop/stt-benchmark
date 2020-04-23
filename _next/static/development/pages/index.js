@@ -91,7 +91,7 @@ function Comparison(props) {
       lineNumber: 49,
       columnNumber: 13
     }
-  }, comparisonName, " ", props.n), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, comparisonName), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
     onClick: handleRemove,
     __self: this,
     __source: {
